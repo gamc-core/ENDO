@@ -1,0 +1,83 @@
+{
+    "generation": "gen_0006",
+    "node": {
+        "node_id": "node00-gamc",
+        "node_path": "node00-gamc"
+    },
+    "READING_ORDER": [
+        "INTRA",
+        "INTER",
+        "STRUCTURE",
+        "LINEAGE",
+        "GLOBAL"
+    ],
+    "intra": {
+        "_": "---------------- INTRA ----------------",
+        "CORE": {
+            "emission_density": 0.76,
+            "origin_distribution": "uniform",
+            "reference_usage": 0.7105,
+            "chain_linearity": 1.0,
+            "origin_pressure": 0.2105
+        },
+        "SECONDARY": {
+            "reference": {
+                "reference_local_density": 0.6842,
+                "reference_structural_density": 0.1579,
+                "reference_connectivity": 0.7105
+            },
+            "chain_break_risk": 0.0
+        },
+        "OPTIONAL": {
+            "reentry": {
+                "reentry_count": 1,
+                "reentry_presence": true
+            }
+        }
+    },
+    "inter": {
+        "_": "---------------- INTER ----------------",
+        "CORE": {
+            "generation_delta": "expanding"
+        },
+        "SECONDARY": {
+            "origin_shift": "low",
+            "structural_shift": "partial"
+        }
+    },
+    "structure": {
+        "_": "---------------- STRUCTURE ----------------",
+        "CORE": {
+            "regime_behavior": "stable"
+        },
+        "SECONDARY": {
+            "origin_persistence": 0.8333,
+            "origin_turnover": 0.1667,
+            "origin_persistence_historical": 1.0
+        }
+    },
+    "lineage": {
+        "_": "---------------- LINEAGE ----------------",
+        "CORE": {
+            "lineage_avg_length": 5.0263,
+            "lineage_avg_depth": 1.6842
+        },
+        "SECONDARY": {
+            "lineage_max_length": 28,
+            "lineage_max_depth": 5,
+            "lineage_reactivation_ratio": 0.5
+        }
+    },
+    "global": {
+        "_": "---------------- GLOBAL STATE ----------------",
+        "OPTIONAL": {
+            "total_generations": 6,
+            "total_cells": 148,
+            "total_origins": 34
+        }
+    },
+    "integrity": {
+        "trajectory_hash": "1760c0550c4d08088b78fcd67bc8bce7cae235b58a274caf2c95ea8eddd4ab89",
+        "hash_algorithm": "SHA-256"
+    }
+}
