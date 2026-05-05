@@ -1,8 +1,11 @@
 # Arquitectura Simbiótica
 
-An exposed system in execution.
+Most execution systems change after they run.  
+This one doesn’t.
 
-This repository contains recorded execution history under the structural conditions of Arquitectura Simbiótica (ENDO / NODE).
+This repository exposes one operational layer of Arquitectura Simbiótica — focused on structured execution, irreversible recording, closure, and verifiability.
+
+It contains recorded execution history under the structural conditions of Arquitectura Simbiótica (ENDO / NODE).
 
 ENDO → structural protocol  
 NODE → runtime execution  
@@ -15,7 +18,7 @@ node00-gamc
 
 Origin node currently exposed.
 
-Captures structural execution as irreversible records across bounded regimes, producing append-only history and generational closure.
+Captures execution as irreversible records across bounded regimes, producing append-only history and generational closure.
 
 Other nodes are not publicly exposed.
 
@@ -38,22 +41,20 @@ Other nodes are not publicly exposed.
 - [trajectory](history/node00-gamc/trajectory/)  
 → structural evolution  
 
-
 ---
 
 ## WHAT YOU ARE SEEING
 
-This is not code.
-
-This is a recorded execution.
+This is not code.  
+This is recorded execution.
 
 You are observing:
 
-- how a system executes  
-- what it records  
-- how it closes  
-- how it persists  
-
+— how a system executes  
+— what it records  
+— how it closes  
+— how it persists
+— reproducible artifacts derived from execution 
 
 ---
 
