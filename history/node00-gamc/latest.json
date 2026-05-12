@@ -1,5 +1,5 @@
 {
-  "generation": "gen_0006",
+  "generation": "gen_0007",
   "regime": {
     "present": false
   },
@@ -15,12 +15,12 @@
     "runtime_version": "ENDO_NODE_V0.3"
   },
   "index": {
-    "total_cells": 29,
-    "origins_active_count": 5,
-    "last_chain_hash": "4a45ba07c95c71ab9e188c38ed9d01f1467e12698589bea2cc5dfc5a0cfa9f6d"
+    "total_cells": 1,
+    "origins_active_count": 1,
+    "last_chain_hash": "69674c84e9481c14dd5bc7497b9048ec8fe7125adb761cdd322797b5629bac1d"
   },
   "evidence": {
-    "index_ref": "node00-gamc/runtime/generations/gen_0006/index.json",
-    "meta_ref": "node00-gamc/runtime/generations/gen_0006/gen_meta.json"
+    "index_ref": "node00-gamc/runtime/generations/gen_0007/index.json",
+    "meta_ref": "node00-gamc/runtime/generations/gen_0007/gen_meta.json"
   }
 }

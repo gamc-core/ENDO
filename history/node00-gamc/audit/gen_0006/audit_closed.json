@@ -1,0 +1,13 @@
+{
+  "type": "AUDIT_CLOSED",
+  "generation": "gen_0006",
+  "status": "MANUAL_ADMISSIBILITY",
+  "audit_count": 2,
+  "audit_chain_hash": "d17d10fff4eb445ccb1f26c438a3a66abca99530a3903891f5fbe7bf559ce3e6",
+  "last_audit_hash": "6001903635bdd5cbb8777538b336799f7ea3f079de0c71b48a3e91aa63bcd59a",
+  "prev_audit_hash": "eb46692b714de486fcd5ee85fe65e3de5ecda9e1fec92c314aefa4292ddd7f8e",
+  "continuity": "AUTHORIZED",
+  "closed_at": "2026-05-12T20:28:49.526647Z",
+  "node_id": "node00-gamc",
+  "hash": "355a01fc63c39e2d1b269ff52c3c27b0765be8f7ea549d6d0fd63feeb0c37f94"
+}
