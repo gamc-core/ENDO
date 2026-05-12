@@ -14,7 +14,7 @@ Execution is recorded as structure.
 Structure accumulates as history.  
 History reveals trajectory.  
 
-
+---
 
 ## SYSTEM STACK
 
@@ -38,7 +38,7 @@ History reveals trajectory.
 
 → execution traces / snapshots / trajectory  
 
-
+---
 
 ## EXECUTION FLOW
 
@@ -60,6 +60,7 @@ REGIME_CLOSE
 EXECUTION TRACE  
 ```
 
+---
 
 ## CORE ELEMENTS
 
@@ -93,7 +94,7 @@ EXECUTION TRACE
 
 → finite operational environment  
 
-
+---
 
 ## PRINCIPLES
 
@@ -103,7 +104,7 @@ EXECUTION TRACE
 - Execution precedes interpretation  
 - If it is not recorded, it does not exist  
 
-
+---
 
 ## STRUCTURAL MODEL
 
@@ -115,7 +116,7 @@ Structure emerges from history.
  
 History reveals trajectory.  
 
-
+---
 
 ## OUTPUT
 
@@ -127,7 +128,7 @@ They emerge only from bounded execution.
 
 Validation (AVE) determines qualification, not existence.
 
-
+---
 
 ## OBSERVABILITY
 
@@ -140,7 +141,9 @@ System state is exposed through:
 Observability does not modify execution.  
 It only reflects it.  
 
+In degraded closure states, admissibility may be externally exposed through append-only audit layers.
 
+---
 
 ## NOTE
 
