@@ -1,0 +1,9 @@
+{
+  "name": "EFO_03",
+  "type": "bounded_execution_environment",
+  "regime_type": "constrained_production",
+  "generation_span": {
+    "start": "gen_0007",
+    "end": "gen_0007"
+  }
+}

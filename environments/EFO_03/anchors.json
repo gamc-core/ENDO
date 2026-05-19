@@ -1,0 +1,19 @@
+{
+  "node": {
+    "node_id": "node00-gamc",
+    "system_origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae"
+  },
+  "environment_id": "EFO_03",
+  "environment_type": "bounded_execution_environment",
+  "regime_type": "constrained_production",
+  "close_trigger": "ADMISSIBILITY_RESET",
+  "generation_span": {
+    "start": "gen_0007",
+    "end": "gen_0007"
+  },
+  "anchors": {
+    "regime_start": "gen_0007#5",
+    "artifact_closes": [],
+    "regime_close": "gen_0007#8"
+  }
+}

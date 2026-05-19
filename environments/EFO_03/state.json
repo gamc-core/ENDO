@@ -1,0 +1,9 @@
+{
+  "status": "CLOSED",
+  "closed": true,
+  "closed_at": "2026-05-19T18:51:18.395860Z",
+  "close_trigger": "ADMISSIBILITY_RESET",
+  "environment_id": "EFO_03",
+  "environment_type": "bounded_execution_environment",
+  "regime_type": "constrained_production"
+}
