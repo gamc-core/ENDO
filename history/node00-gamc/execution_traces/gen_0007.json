@@ -1,0 +1,65 @@
+{
+  "execution_trace_id": "et-gen_0007",
+  "generation": "gen_0007",
+  "anchors": {
+    "cycle_closed_hash": "02b734bd86046b137130a4b55f3edf99550e2afe3c545413b170a1929d2f26ba",
+    "index_hash": "72fc8d842a5e781069a1c6907964ac98b238872d6507937b036b788325d224f8",
+    "meta_hash": "66aacefdf899419f91eae9381df80d5c6de57ec2618ee9736d4d61cd9f173ed8",
+    "last_chain_hash": "be81d138e02d092cef2f92ff5f5afe02b8352f6f5f2c458632f317bee89edfb4"
+  },
+  "regime": {
+    "present": true,
+    "start": {
+      "generation": "gen_0007",
+      "anchor": "#5"
+    },
+    "events": [
+      {
+        "type": "REGIME_CLOSE",
+        "generation": "gen_0007",
+        "anchor": "#8"
+      }
+    ]
+  },
+  "node": {
+    "node_id": "node00-gamc",
+    "node_path": "node00-gamc"
+  },
+  "runtime": {
+    "hash_mode": "v3",
+    "runtime_version": "ENDO_NODE_V0.3"
+  },
+  "closure": {
+    "closed": true,
+    "closed_at": "2026-05-20T05:01:32.263843Z",
+    "final_total": 18,
+    "threshold": 50,
+    "time_limit_seconds": 604800,
+    "closed_reason": "TIME",
+    "resolution": {
+      "seq_global": 18,
+      "cell_id": "fe4b8701-3b53-4ece-b9bb-e9920bf1d4f1",
+      "hash": "be81d138e02d092cef2f92ff5f5afe02b8352f6f5f2c458632f317bee89edfb4"
+    },
+    "integrity": {
+      "record_hash": "9909dc1727c19bff88955d81d469bb41c464445b78abfe578344bb8e38ca799a",
+      "hash_algorithm": "SHA-256"
+    }
+  },
+  "resolution": {
+    "seq_global": 18,
+    "cell_id": "fe4b8701-3b53-4ece-b9bb-e9920bf1d4f1",
+    "hash": "be81d138e02d092cef2f92ff5f5afe02b8352f6f5f2c458632f317bee89edfb4",
+    "payload_raw": "{\"type\":\"RESOLUTION\",\"scope\":\"GENERATION\",\"generation\":\"gen_0007\",\"closure_reason\":\"TIME\",\"integrity\":{\"status\":\"CLEAN\",\"corrupted_count\":0,\"chain_break_count\":0,\"corruption\":{\"hash_mismatch\":[],\"chain_break\":[],\"invalid_reference\":[],\"other\":[]}}}",
+    "anchor": "#18"
+  },
+  "evidence": {
+    "closure_ref": "node00-gamc/runtime/generations/gen_0007/cycle_closed.json",
+    "index_ref": "node00-gamc/runtime/generations/gen_0007/index.json",
+    "meta_ref": "node00-gamc/runtime/generations/gen_0007/gen_meta.json"
+  },
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "record_hash": "f3cc50d8a6b27b533b1061d65a5ce873698bda79221abdf96d56d8352f8effef"
+  }
+}

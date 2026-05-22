@@ -1,0 +1,447 @@
+{
+  "generation": "gen_0007",
+  "snapshot_id": "gen_0007_001",
+  "captured_at": "2026-05-20T05:01:56.611753Z",
+  "regime": {
+    "present": false
+  },
+  "node": {
+    "node_id": "node00-gamc",
+    "node_path": "node00-gamc"
+  },
+  "generation_meta": {
+    "generation": "gen_0007",
+    "created_at": "2026-05-12T20:43:21.994857Z",
+    "time_limit_seconds": 604800,
+    "threshold": 50,
+    "max_cells_per_origin": 6,
+    "closed": true,
+    "config_snapshot": {
+      "threshold": 50,
+      "time_limit_seconds": 604800,
+      "max_cells_per_origin": 6,
+      "max_generations": 9999,
+      "payload_max_chars": 2000,
+      "payload_min_chars": 3,
+      "runtime_version": "ENDO_NODE_V0.3",
+      "hash_mode": "v3"
+    },
+    "config_hash": "2380dcd5d10e5f1b42290120630f9641a117ed1169fc9349cdb1ca3996ea9899",
+    "closed_at": "2026-05-20T05:01:32.263843Z",
+    "closed_reason": "TIME"
+  },
+  "runtime": {
+    "hash_mode": "v3",
+    "runtime_version": "ENDO_NODE_V0.3"
+  },
+  "index": {
+    "total_cells": 18,
+    "origins_active_count": 5,
+    "last_cell_at": "2026-05-20T05:01:32.259399Z",
+    "cells_by_origin": {
+      "0130cae3-1be4-41ed-bc8e-3ec373674eae": 4,
+      "a8e49d48-73c9-4268-8e04-a072b1fc4203": 5,
+      "61791a1d-8de1-47b3-a158-29e10b47a24d": 4,
+      "749149a1-846b-4027-9872-f0e57485d400": 3,
+      "c9565576-7084-49a0-a9fa-b3422fe8c148": 2
+    },
+    "seq_global": 18,
+    "last_chain_hash": "be81d138e02d092cef2f92ff5f5afe02b8352f6f5f2c458632f317bee89edfb4"
+  },
+  "cells": [
+    {
+      "cell_id": "cb90918e-3246-4d51-800d-7672a3774694",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 1,
+      "payload": "{\"type\":\"REENTRY\",\"from_generation\":\"gen_0006\",\"to_generation\":\"gen_0007\",\"mode\":\"NO_STATE_CARRY\",\"continuity\":\"TRAJECTORY_PRESERVED\",\"reentry_anchor\":\"#40\"}",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0006",
+              "cell": {
+                "seq_global": 40
+              }
+            }
+          }
+        ]
+      },
+      "hash": "69674c84e9481c14dd5bc7497b9048ec8fe7125adb761cdd322797b5629bac1d",
+      "prev_hash": "GENESIS"
+    },
+    {
+      "cell_id": "d1471800-9182-4ed2-bb58-e121f348458c",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 2,
+      "payload": "audit layer externalized → runtime continuity preserved despite degraded closure → @gen_0006#40",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0006",
+              "cell": {
+                "seq_global": 40
+              }
+            }
+          }
+        ]
+      },
+      "hash": "1d0be7c2501390337e1277e44573d086b42c46e2569d4bd7e7ff3d105f48c7c1",
+      "prev_hash": "69674c84e9481c14dd5bc7497b9048ec8fe7125adb761cdd322797b5629bac1d"
+    },
+    {
+      "cell_id": "73139ce0-7aaf-48e0-ad2f-6ca21c340f70",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 3,
+      "payload": "manual admissibility introduced → audit chain separated from runtime chain → #2",
+      "references": {
+        "local": [
+          2
+        ],
+        "structural": []
+      },
+      "hash": "82ab7fee17d7de1e1b988451e0d8e010704b065397a844fc8fb0c68635a14d34",
+      "prev_hash": "1d0be7c2501390337e1277e44573d086b42c46e2569d4bd7e7ff3d105f48c7c1"
+    },
+    {
+      "cell_id": "55fef273-b9e1-4ea1-9a25-aa828b72864b",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 4,
+      "payload": "closure-bound exports restored → audit projection integrated as derived observability layer → @gen_0006#35 → #2",
+      "references": {
+        "local": [
+          2
+        ],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0006",
+              "cell": {
+                "seq_global": 35
+              }
+            }
+          }
+        ]
+      },
+      "hash": "e3b139be9ed965f356b1b25137770e5832042bd4670976ea9aff13f14918d4f4",
+      "prev_hash": "82ab7fee17d7de1e1b988451e0d8e010704b065397a844fc8fb0c68635a14d34"
+    },
+    {
+      "cell_id": "cc221fbe-1a30-4067-bd42-3da0ded22e31",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 5,
+      "payload": "{\"type\":\"REGIME_START\",\"regime\":\"EFO_03\",\"environment_type\":\"bounded_execution_environment\",\"regime_type\":\"constrained_production\"}",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "6d761144fb6183de68b10d1b8ab126a2f35e1e2a6799f708d5d6e48b047237be",
+      "prev_hash": "e3b139be9ed965f356b1b25137770e5832042bd4670976ea9aff13f14918d4f4"
+    },
+    {
+      "cell_id": "c9ef4c06-14b0-4056-9648-5926d08b05eb",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 6,
+      "payload": "  automatic regime activation path detected → explicit admissibility gate introduced → unauthorized execution prevented → #5",
+      "references": {
+        "local": [
+          5
+        ],
+        "structural": []
+      },
+      "hash": "e8f778da1a2f2fb78599235a99f57a9c9446007aa6331fbaa760acaf5f75e05d",
+      "prev_hash": "6d761144fb6183de68b10d1b8ab126a2f35e1e2a6799f708d5d6e48b047237be"
+    },
+    {
+      "cell_id": "8042b971-260f-44d1-ac42-42d2c938bbf4",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 7,
+      "payload": "passive runtime reads isolated from regime activation flow → status operations no longer capable of triggering execution state changes → #1",
+      "references": {
+        "local": [
+          1
+        ],
+        "structural": []
+      },
+      "hash": "c6fa9d1332802d29e9cf14e7eb976a9e14a0b4e472cf5577adfeca7db11db346",
+      "prev_hash": "e8f778da1a2f2fb78599235a99f57a9c9446007aa6331fbaa760acaf5f75e05d"
+    },
+    {
+      "cell_id": "80bcf60f-b5c9-433d-98b3-9e44491a3d1c",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 8,
+      "payload": "{\"type\":\"REGIME_CLOSE\",\"regime\":\"EFO_03\",\"environment_type\":\"bounded_execution_environment\",\"regime_type\":\"constrained_production\",\"trigger\":\"ADMISSIBILITY_RESET\"}",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "9138f9fbbf4772f3e2aa340d07caf535b2cc387dc8a50b83b92d171217e12947",
+      "prev_hash": "c6fa9d1332802d29e9cf14e7eb976a9e14a0b4e472cf5577adfeca7db11db346"
+    },
+    {
+      "cell_id": "954c9ded-9f8b-49eb-9fd2-0ff8b11c6d9e",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 9,
+      "payload": "pre-active environment requirement enforced → regime activation constrained to explicitly selected environments → #5 →  #6",
+      "references": {
+        "local": [
+          5,
+          6
+        ],
+        "structural": []
+      },
+      "hash": "264c4e01c90bea7ac303deb37abe478603b3f0cf5009d7b4814c60c47c9cd67d",
+      "prev_hash": "9138f9fbbf4772f3e2aa340d07caf535b2cc387dc8a50b83b92d171217e12947"
+    },
+    {
+      "cell_id": "406d0175-e9c2-4d27-a0cb-33eeeb225677",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 10,
+      "payload": "environment identity uniqueness enforced → previously instantiated EFO identifiers blocked from reactivation → #5 → #8",
+      "references": {
+        "local": [
+          5,
+          8
+        ],
+        "structural": []
+      },
+      "hash": "f17868ecce634d31d6127a2ce95d15a949eacdd9cfdca94220c3f4c54fa21ca9",
+      "prev_hash": "264c4e01c90bea7ac303deb37abe478603b3f0cf5009d7b4814c60c47c9cd67d"
+    },
+    {
+      "cell_id": "b69a5d90-bf1d-4777-8153-5b4863be0ecf",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 11,
+      "payload": "minimal admissibility layer introduced → runtime execution conditioned by structural environment validation instead of implicit activation → @gen_0006#37 → #6",
+      "references": {
+        "local": [
+          6
+        ],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0006",
+              "cell": {
+                "seq_global": 37
+              }
+            }
+          }
+        ]
+      },
+      "hash": "80af2bb2f5b062573162641af75819cc15cdaf5db8c6df87699c408fddef8876",
+      "prev_hash": "f17868ecce634d31d6127a2ce95d15a949eacdd9cfdca94220c3f4c54fa21ca9"
+    },
+    {
+      "cell_id": "2071f169-57ce-43a0-87cf-dfb488d371f7",
+      "origin_id": "c9565576-7084-49a0-a9fa-b3422fe8c148",
+      "origin_alias": "oc95655",
+      "seq_global": 12,
+      "payload": " environment export detection generalized → regime reconstruction no longer dependent on closed-only state → structural anchors derived from runtime history → @gen_0006#36",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0006",
+              "cell": {
+                "seq_global": 36
+              }
+            }
+          }
+        ]
+      },
+      "hash": "bb6587818f6f5f3d2a4cd817461a6f9424f21c85bde50fa4616714ba28fdbd83",
+      "prev_hash": "80af2bb2f5b062573162641af75819cc15cdaf5db8c6df87699c408fddef8876"
+    },
+    {
+      "cell_id": "0fb53c03-1c20-4acb-94b1-94fb1fe92147",
+      "origin_id": "c9565576-7084-49a0-a9fa-b3422fe8c148",
+      "origin_alias": "oc95655",
+      "seq_global": 13,
+      "payload": "deterministic environment export stabilized across nodes → regime anchors + artifact closures reconstructed through generational history → @gen_0006#36 → #12",
+      "references": {
+        "local": [
+          12
+        ],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0006",
+              "cell": {
+                "seq_global": 36
+              }
+            }
+          }
+        ]
+      },
+      "hash": "75b7fe7fe176ae99e72c2acd8bd13d62cb28bc6add7161b8608c4bda85d7eaf9",
+      "prev_hash": "bb6587818f6f5f3d2a4cd817461a6f9424f21c85bde50fa4616714ba28fdbd83"
+    },
+    {
+      "cell_id": "cff7c2b4-08fb-47ec-86b5-d1857167d532",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 14,
+      "payload": " artifact identity detached from mutable creation timestamps → CLOSED state declared as deterministic identity anchor → AVE identity validation stabilized → @gen_0005#5",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0005",
+              "cell": {
+                "seq_global": 5
+              }
+            }
+          }
+        ]
+      },
+      "hash": "22acd9b96330a55d3de0f306ea05a863fde1f467bad4beb58a3f9ef503be7ea5",
+      "prev_hash": "75b7fe7fe176ae99e72c2acd8bd13d62cb28bc6add7161b8608c4bda85d7eaf9"
+    },
+    {
+      "cell_id": "b09cf50c-c6af-4993-9fe7-11390b660077",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 15,
+      "payload": "external artifact validation extended → human-validated external files required when artifact exceeds computable system boundary → Drive-linked architectural runtimes structurally admissible through explicit validation layer → @node_piura_01/gen_0005#6 → @node_piura_01/gen_0005#7",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_node",
+            "target": {
+              "node_id": "node_piura_01",
+              "generation": "gen_0005",
+              "cell": {
+                "seq_global": 6
+              }
+            }
+          },
+          {
+            "ref_type": "inter_node",
+            "target": {
+              "node_id": "node_piura_01",
+              "generation": "gen_0005",
+              "cell": {
+                "seq_global": 7
+              }
+            }
+          }
+        ]
+      },
+      "hash": "92112caf5bdb2773e5da970caa26798a491f42459b995834574fd0b8eadbbf37",
+      "prev_hash": "22acd9b96330a55d3de0f306ea05a863fde1f467bad4beb58a3f9ef503be7ea5"
+    },
+    {
+      "cell_id": "435b8eba-7a14-4734-93c9-1c343250bc63",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 16,
+      "payload": "runtime execution unified across environments → environment-local runtimes removed → active_environment resolution centralized → multi-node scalability stabilized → #11",
+      "references": {
+        "local": [
+          11
+        ],
+        "structural": []
+      },
+      "hash": "a07bd34ba37b4865e3b7585214913e95d5bda67cce3658f2421a692182f6df14",
+      "prev_hash": "92112caf5bdb2773e5da970caa26798a491f42459b995834574fd0b8eadbbf37"
+    },
+    {
+      "cell_id": "8949e9a3-e232-435b-aad2-35c40976cfbd",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 17,
+      "payload": "canonical structural layers updated → admissibility + human audit + validation boundary integrated into master system structure / public structure / structural flow → execution governance stabilized across degraded and externalized environments → #2 → #3 → #11 → #14 → #15 → #16 → @gen_0005#14 → @gen_0005#15 → @gen_0005#16",
+      "references": {
+        "local": [
+          2,
+          3,
+          11,
+          14,
+          15,
+          16
+        ],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0005",
+              "cell": {
+                "seq_global": 14
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0005",
+              "cell": {
+                "seq_global": 15
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0005",
+              "cell": {
+                "seq_global": 16
+              }
+            }
+          }
+        ]
+      },
+      "hash": "24351a0a3c956492dba7a283a8c2e04b6509276e895c402d4ce5bacba4bc1cd7",
+      "prev_hash": "a07bd34ba37b4865e3b7585214913e95d5bda67cce3658f2421a692182f6df14"
+    },
+    {
+      "cell_id": "fe4b8701-3b53-4ece-b9bb-e9920bf1d4f1",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 18,
+      "payload": "{\"type\":\"RESOLUTION\",\"scope\":\"GENERATION\",\"generation\":\"gen_0007\",\"closure_reason\":\"TIME\",\"integrity\":{\"status\":\"CLEAN\",\"corrupted_count\":0,\"chain_break_count\":0,\"corruption\":{\"hash_mismatch\":[],\"chain_break\":[],\"invalid_reference\":[],\"other\":[]}}}",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "be81d138e02d092cef2f92ff5f5afe02b8352f6f5f2c458632f317bee89edfb4",
+      "prev_hash": "24351a0a3c956492dba7a283a8c2e04b6509276e895c402d4ce5bacba4bc1cd7"
+    }
+  ],
+  "integrity": {
+    "snapshot_hash": "37b064b12c30b2c31f06f938ea00a42f666d030864d5d2968db8ec251ab4e42f",
+    "hash_algorithm": "SHA-256"
+  }
+}
