@@ -1,0 +1,54 @@
+{
+  "execution_trace_id": "et-gen_0009",
+  "generation": "gen_0009",
+  "anchors": {
+    "cycle_closed_hash": "84e36abda58cbe45361c27e0a16330d23d2776d95e3f749dc2a9fd4ed0cd92bb",
+    "index_hash": "26ea7f4b179f3a7f8402172362f2c8863f3ce7c8819f597b4bfbe56488763822",
+    "meta_hash": "4be17bc3db2ff720feb5a722b7b5f4ddba47c36cb4e26b7401ac74f7fa94d765",
+    "last_chain_hash": "b9d675ca2424fd580ea3d7f05d7703a37113441081c103fc65fbae80af5c4b13"
+  },
+  "regime": {
+    "present": false
+  },
+  "node": {
+    "node_id": "node00-gamc",
+    "node_path": "node00-gamc"
+  },
+  "runtime": {
+    "hash_mode": "v4",
+    "runtime_version": "ENDO_NODE_V0.4"
+  },
+  "closure": {
+    "closed": true,
+    "closed_at": "2026-06-09T15:15:44.731949Z",
+    "final_total": 21,
+    "threshold": 30,
+    "time_limit_seconds": 604800,
+    "closed_reason": "TIME",
+    "resolution": {
+      "seq_global": 21,
+      "cell_id": "e3ae2227-f296-4deb-bdeb-3d2aaab4d742",
+      "hash": "b9d675ca2424fd580ea3d7f05d7703a37113441081c103fc65fbae80af5c4b13"
+    },
+    "integrity": {
+      "record_hash": "18e4baaa2b5a70d0e5303b4abcc60825ab0446cb39e97ad776adf73fe2fbfec9",
+      "hash_algorithm": "SHA-256"
+    }
+  },
+  "resolution": {
+    "seq_global": 21,
+    "cell_id": "e3ae2227-f296-4deb-bdeb-3d2aaab4d742",
+    "hash": "b9d675ca2424fd580ea3d7f05d7703a37113441081c103fc65fbae80af5c4b13",
+    "payload_raw": "{\"type\":\"RESOLUTION\",\"scope\":\"GENERATION\",\"generation\":\"gen_0009\",\"closure_reason\":\"TIME\",\"integrity\":{\"status\":\"CLEAN\",\"corrupted_count\":0,\"chain_break_count\":0,\"corruption\":{\"hash_mismatch\":[],\"chain_break\":[],\"invalid_reference\":[],\"other\":[]}}}",
+    "anchor": "#21"
+  },
+  "evidence": {
+    "closure_ref": "node00-gamc/runtime/generations/gen_0009/cycle_closed.json",
+    "index_ref": "node00-gamc/runtime/generations/gen_0009/index.json",
+    "meta_ref": "node00-gamc/runtime/generations/gen_0009/gen_meta.json"
+  },
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "record_hash": "cd7a7efde152cd20ff5b5e241cd53236462a88830bf4dc2a868075df6c8badfe"
+  }
+}

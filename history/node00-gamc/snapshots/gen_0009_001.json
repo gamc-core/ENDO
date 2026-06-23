@@ -1,0 +1,862 @@
+{
+  "generation": "gen_0009",
+  "snapshot_id": "gen_0009_001",
+  "captured_at": "2026-06-09T15:15:51.244133Z",
+  "regime": {
+    "present": false
+  },
+  "node": {
+    "node_id": "node00-gamc",
+    "node_path": "node00-gamc"
+  },
+  "generation_meta": {
+    "generation": "gen_0009",
+    "created_at": "2026-06-02T04:50:23.728495Z",
+    "time_limit_seconds": 604800,
+    "threshold": 30,
+    "max_cells_per_origin": 6,
+    "closed": true,
+    "config_snapshot": {
+      "threshold": 30,
+      "time_limit_seconds": 604800,
+      "max_cells_per_origin": 6,
+      "max_generations": 9999,
+      "payload_max_chars": 2000,
+      "payload_min_chars": 3,
+      "runtime_version": "ENDO_NODE_V0.4",
+      "hash_mode": "v4"
+    },
+    "config_hash": "09e5af534d0cc32a4feb83aee16b34f2c0116081d72c34ba36483ae8824e6b61",
+    "closed_at": "2026-06-09T15:15:44.731949Z",
+    "closed_reason": "TIME"
+  },
+  "runtime": {
+    "hash_mode": "v4",
+    "runtime_version": "ENDO_NODE_V0.4"
+  },
+  "index": {
+    "total_cells": 21,
+    "origins_active_count": 5,
+    "last_cell_at": "2026-06-09T15:15:44.721942Z",
+    "cells_by_origin": {
+      "0130cae3-1be4-41ed-bc8e-3ec373674eae": 2,
+      "61791a1d-8de1-47b3-a158-29e10b47a24d": 6,
+      "749149a1-846b-4027-9872-f0e57485d400": 6,
+      "8da24631-9746-418c-aa49-ad0112313bce": 6,
+      "df6bb589-7555-428a-a277-bc10cd830dcf": 1
+    },
+    "seq_global": 21,
+    "last_chain_hash": "b9d675ca2424fd580ea3d7f05d7703a37113441081c103fc65fbae80af5c4b13"
+  },
+  "cells": [
+    {
+      "cell_id": "fb26680b-45fd-43d8-b9df-f4dfd728410a",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 1,
+      "payload": "{\"type\":\"REENTRY\",\"from_generation\":\"gen_0008\",\"to_generation\":\"gen_0009\",\"mode\":\"NO_STATE_CARRY\",\"continuity\":\"TRAJECTORY_PRESERVED\",\"reentry_anchor\":\"#17\"}",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 17
+              }
+            }
+          }
+        ]
+      },
+      "hash": "a3c48e518d81586434ea2c1df0b0f0ce609d50854a940779d2ec839114ec77cc",
+      "prev_hash": "GENESIS"
+    },
+    {
+      "cell_id": "af4241be-9c45-4379-bd85-e82a62d8baec",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 2,
+      "payload": "FM01 reproducibility validation executed → hash-chain integrity verification bounded → failure containment confirmed → @gen_0003#12 @gen_0003#13",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0003",
+              "cell": {
+                "seq_global": 12
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0003",
+              "cell": {
+                "seq_global": 13
+              }
+            }
+          }
+        ]
+      },
+      "hash": "629b3ae585de516175d39d858abda0a811b5a35c7f28f6966b55add72c62ea9e",
+      "prev_hash": "a3c48e518d81586434ea2c1df0b0f0ce609d50854a940779d2ec839114ec77cc"
+    },
+    {
+      "cell_id": "eb6cd908-2f8e-47ae-b340-7fc12e3dd9ad",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 3,
+      "payload": "FM02 reproducibility validation executed → terminal resolution presence verified → continuity reconstruction confirmed → @gen_0003#13 @gen_0008#17",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0003",
+              "cell": {
+                "seq_global": 13
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 17
+              }
+            }
+          }
+        ]
+      },
+      "hash": "eea2a27d3ffef1e00efe4e3d3c22c364920ef6475564bb4b836864253a2a09b9",
+      "prev_hash": "629b3ae585de516175d39d858abda0a811b5a35c7f28f6966b55add72c62ea9e"
+    },
+    {
+      "cell_id": "0bb16dc2-f572-449d-a0ad-a9f363d3f70c",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 4,
+      "payload": "FM04 reproducibility validation executed → closure-bound export constraint verified → observability boundary confirmed → @gen_0006#35 @gen_0007#4 @gen_0008#11",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0006",
+              "cell": {
+                "seq_global": 35
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0007",
+              "cell": {
+                "seq_global": 4
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 11
+              }
+            }
+          }
+        ]
+      },
+      "hash": "ee034303ace392eac7fdc2877055d2829c04c8d5eefb5a87bf0d27698a6e9cf6",
+      "prev_hash": "eea2a27d3ffef1e00efe4e3d3c22c364920ef6475564bb4b836864253a2a09b9"
+    },
+    {
+      "cell_id": "5585f5e3-7e24-4739-abfa-e2f29978f5a8",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 5,
+      "payload": "failure map updated → historical failures reclassified as auditable where evidence permits → metadata taxonomy integrated → traceability improved → @gen_0008#13 @gen_0008#15",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 13
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 15
+              }
+            }
+          }
+        ]
+      },
+      "hash": "2d1b78bd1fe8a0453ba3a547d9455d11b007e88041cac8ab1f299c3618cb3628",
+      "prev_hash": "ee034303ace392eac7fdc2877055d2829c04c8d5eefb5a87bf0d27698a6e9cf6"
+    },
+    {
+      "cell_id": "c8862bba-ce22-41b1-b528-7055edf8e355",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 6,
+      "payload": "decision: generation storage committed only at closure → fragmented runtime history reduced → canonical generation evidence prioritized → @gen_0004#5 @gen_0008#17",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 5
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 17
+              }
+            }
+          }
+        ]
+      },
+      "hash": "6af340bc4c009b9ef8b8caa10e039c52786f823e05ab5c497a66b1611340a7a0",
+      "prev_hash": "2d1b78bd1fe8a0453ba3a547d9455d11b007e88041cac8ab1f299c3618cb3628"
+    },
+    {
+      "cell_id": "4466adcd-c8f3-4b5a-b476-395accfb7d61",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 7,
+      "payload": "public repository observability continuity extended → GEN_0008 closure evidence published → trajectory / execution_trace / snapshot lineage exposed → @gen_0002#11 @gen_0004#9 @gen_0005#9 @gen_0008#17",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0002",
+              "cell": {
+                "seq_global": 11
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 9
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0005",
+              "cell": {
+                "seq_global": 9
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 17
+              }
+            }
+          }
+        ]
+      },
+      "hash": "c387bc978ebbe8012cdd27bd71a6a793aa38624161d1d99e4e8eac054d60b62a",
+      "prev_hash": "6af340bc4c009b9ef8b8caa10e039c52786f823e05ab5c497a66b1611340a7a0"
+    },
+    {
+      "cell_id": "4ae3561e-abca-4c56-b2bf-798d9906545c",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 8,
+      "payload": "FM03 audit reconstruction executed → terminal closure corruption lineage anchored → historical failure became auditable → @gen_0006#40 @gen_0007#2",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0006",
+              "cell": {
+                "seq_global": 40
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0007",
+              "cell": {
+                "seq_global": 2
+              }
+            }
+          }
+        ]
+      },
+      "hash": "e1e80992165708c2cfb2917300ac4f5729a791b2065b713dd0173aae685c0ffd",
+      "prev_hash": "c387bc978ebbe8012cdd27bd71a6a793aa38624161d1d99e4e8eac054d60b62a"
+    },
+    {
+      "cell_id": "ad2d067c-bb55-4fe5-ac21-a508843cdef0",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 9,
+      "payload": "FM14 audit continuity reconstruction executed → reentry lineage verified through historical anchors → structural ambiguity bounded → @gen_0003#13 @gen_0004#1",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0003",
+              "cell": {
+                "seq_global": 13
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 1
+              }
+            }
+          }
+        ]
+      },
+      "hash": "fd919d5d9defb4f907651c3da6a27726220fb1716471527e110931bb2724711f",
+      "prev_hash": "e1e80992165708c2cfb2917300ac4f5729a791b2065b713dd0173aae685c0ffd"
+    },
+    {
+      "cell_id": "be4ef189-941f-40d4-984b-ef449a3e73db",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 10,
+      "payload": "FM15 audit → artifact validity reconstruction executed → invalid artifact transition lineage verified → structural evidence bounded → @gen_0006#18 @gen_0006#21",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0006",
+              "cell": {
+                "seq_global": 18
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0006",
+              "cell": {
+                "seq_global": 21
+              }
+            }
+          }
+        ]
+      },
+      "hash": "2b9e336f8db474dca38ba96b4c07fbd317fb9425b28b273998001e7da7c075ca",
+      "prev_hash": "fd919d5d9defb4f907651c3da6a27726220fb1716471527e110931bb2724711f"
+    },
+    {
+      "cell_id": "c43f9870-907b-45f9-841a-c2b9269534d7",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 11,
+      "payload": "failure map retired set updated → FM06 FM08 FM09 FM16 FM19 absorbed into FM03 and FM04 containment lineage → redundancy reduced → @gen_0009#8 @gen_0009#10",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0009",
+              "cell": {
+                "seq_global": 8
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0009",
+              "cell": {
+                "seq_global": 10
+              }
+            }
+          }
+        ]
+      },
+      "hash": "dfe4277eb77ed7434a6b3a87428172b1690696786f800d20b2f321dd7678fb10",
+      "prev_hash": "2b9e336f8db474dca38ba96b4c07fbd317fb9425b28b273998001e7da7c075ca"
+    },
+    {
+      "cell_id": "6c003c6a-ddbd-48c7-b41a-0641e0a3f0a6",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 12,
+      "payload": "failure map updated → FM01 FM02 FM03 FM04 FM14 FM15 evidence classification refined → metadata taxonomy integrated → traceability and recoverability boundaries improved → @gen_0008#13 @gen_0008#15 @gen_0009#2 @gen_0009#3 @gen_0009#4 @gen_0009#8 @gen_0009#9 @gen_0009#10",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 13
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 15
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0009",
+              "cell": {
+                "seq_global": 2
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0009",
+              "cell": {
+                "seq_global": 3
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0009",
+              "cell": {
+                "seq_global": 4
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0009",
+              "cell": {
+                "seq_global": 8
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0009",
+              "cell": {
+                "seq_global": 9
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0009",
+              "cell": {
+                "seq_global": 10
+              }
+            }
+          }
+        ]
+      },
+      "hash": "4ecaa88f2ed4760333958965221dbf99e06a9e1578d110e67c41ac429f71cb06",
+      "prev_hash": "dfe4277eb77ed7434a6b3a87428172b1690696786f800d20b2f321dd7678fb10"
+    },
+    {
+      "cell_id": "aff9a84b-0b60-4a89-92f7-6886a6ec3829",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 13,
+      "payload": "structural map updated → failure modes / reproducibility / auditability / temporal observability integrated into canonical architecture → structural lineage expanded without altering execution model → @gen_0007#17 @gen_0008#16 @gen_0009#12",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0007",
+              "cell": {
+                "seq_global": 17
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 16
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0009",
+              "cell": {
+                "seq_global": 12
+              }
+            }
+          }
+        ]
+      },
+      "hash": "660be369f39ed6b8a4ad344b8949bba2ef35364b76a705d88576141c6f77568e",
+      "prev_hash": "4ecaa88f2ed4760333958965221dbf99e06a9e1578d110e67c41ac429f71cb06"
+    },
+    {
+      "cell_id": "1d9d64d2-4431-47ee-8792-7cd43941326a",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 14,
+      "payload": "AS01 Symbiotic Architecture Constitution v0.1 defined → constitutive layer formalized → occurrence vs existence boundary established → ENDO positioned as computable existence threshold → persistence → node → inscription → derivation sequence stabilized → @gen_0002#12 @gen_0003#11 @gen_0005#14 @gen_0008#16",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0002",
+              "cell": {
+                "seq_global": 12
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0003",
+              "cell": {
+                "seq_global": 11
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0005",
+              "cell": {
+                "seq_global": 14
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 16
+              }
+            }
+          }
+        ]
+      },
+      "hash": "64c875dab2a692fdd247329b06d80068b6615b369260d7a836f4968b4e914c15",
+      "prev_hash": "660be369f39ed6b8a4ad344b8949bba2ef35364b76a705d88576141c6f77568e"
+    },
+    {
+      "cell_id": "70b8f86c-20bb-43ed-84b9-951ee7107971",
+      "origin_id": "df6bb589-7555-428a-a277-bc10cd830dcf",
+      "origin_alias": "odf6bb5",
+      "seq_global": 15,
+      "payload": "NODE_ECTO_02 initialized → bifurcation source preserved → @node_ecto_02/gen_0001#1 → @gen_0003#7 → @gen_0004#14",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_node",
+            "target": {
+              "node_id": "node_ecto_02",
+              "generation": "gen_0001",
+              "cell": {
+                "seq_global": 1
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0003",
+              "cell": {
+                "seq_global": 7
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 14
+              }
+            }
+          }
+        ]
+      },
+      "hash": "73a9dd8ee0f6cdf530fcca556cc35abba076a81a1e9532723881fa332811bad2",
+      "prev_hash": "64c875dab2a692fdd247329b06d80068b6615b369260d7a836f4968b4e914c15"
+    },
+    {
+      "cell_id": "8823cb2a-d050-45a2-9570-e63fb0790ca1",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 16,
+      "payload": "canonical architecture consolidated → MASTER_SYSTEM_STRUCTURE declared sole structural authority → auxiliary maps reduced to derived status → @gen_0005#14 → @gen_0009#13",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0005",
+              "cell": {
+                "seq_global": 14
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0009",
+              "cell": {
+                "seq_global": 13
+              }
+            }
+          }
+        ]
+      },
+      "hash": "3f2e9bb7187c76fe618c06d15d9e44965405786948b34dc19fe19a78fabaf7e1",
+      "prev_hash": "73a9dd8ee0f6cdf530fcca556cc35abba076a81a1e9532723881fa332811bad2"
+    },
+    {
+      "cell_id": "2ede84b1-f877-46ce-a0a6-8d1577246f53",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 17,
+      "payload": "operational mechanism v0.1 defined → execution lifecycle formalized → structural boundaries established → @gen_0009#16",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0009",
+              "cell": {
+                "seq_global": 16
+              }
+            }
+          }
+        ]
+      },
+      "hash": "09e5f276391d30085e9013abb197e6e9eef360b1d9b0900ef9ba9346d908ed44",
+      "prev_hash": "3f2e9bb7187c76fe618c06d15d9e44965405786948b34dc19fe19a78fabaf7e1"
+    },
+    {
+      "cell_id": "d56f39cf-0062-42f4-9f67-586d7f217372",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 18,
+      "payload": "traceability mechanism v0.1 defined → trajectory reconstruction model established → @gen_0009#13",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0009",
+              "cell": {
+                "seq_global": 13
+              }
+            }
+          }
+        ]
+      },
+      "hash": "aa1e3a087ce254938fd10a45f911c828b1b50f6fd143278f316ff9e887b52ae8",
+      "prev_hash": "09e5f276391d30085e9013abb197e6e9eef360b1d9b0900ef9ba9346d908ed44"
+    },
+    {
+      "cell_id": "b6802deb-4764-4bef-8793-d955e3af7bca",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 19,
+      "payload": "traceability mechanism v0.1 → @gen_0007#18 @gen_0008#12 @gen_0009#12",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0007",
+              "cell": {
+                "seq_global": 18
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 12
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0009",
+              "cell": {
+                "seq_global": 12
+              }
+            }
+          }
+        ]
+      },
+      "hash": "a7a2d857404444a01bdeb02f90374b57d9115cb395a064fdfd99fe37ea77ba8f",
+      "prev_hash": "aa1e3a087ce254938fd10a45f911c828b1b50f6fd143278f316ff9e887b52ae8"
+    },
+    {
+      "cell_id": "ffe3bd14-e301-4c76-bee9-60f2818f1d85",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 20,
+      "payload": "historical entity composition initiated → trajectory reconstruction expanded beyond generations and regimes → artifacts and failure modes become reconstructable as independent historical entities → #18 → @gen_0008#3 → @node_piura_01/gen_0004#8",
+      "references": {
+        "local": [
+          18
+        ],
+        "structural": [
+          {
+            "ref_type": "inter_node",
+            "target": {
+              "node_id": "node_piura_01",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 8
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 3
+              }
+            }
+          }
+        ]
+      },
+      "hash": "c3dd07a9e6d6577fe306d98bba11162c7faa9bb42e1a8c6d368fd744f2291e5b",
+      "prev_hash": "a7a2d857404444a01bdeb02f90374b57d9115cb395a064fdfd99fe37ea77ba8f"
+    },
+    {
+      "cell_id": "e3ae2227-f296-4deb-bdeb-3d2aaab4d742",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 21,
+      "payload": "{\"type\":\"RESOLUTION\",\"scope\":\"GENERATION\",\"generation\":\"gen_0009\",\"closure_reason\":\"TIME\",\"integrity\":{\"status\":\"CLEAN\",\"corrupted_count\":0,\"chain_break_count\":0,\"corruption\":{\"hash_mismatch\":[],\"chain_break\":[],\"invalid_reference\":[],\"other\":[]}}}",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "b9d675ca2424fd580ea3d7f05d7703a37113441081c103fc65fbae80af5c4b13",
+      "prev_hash": "c3dd07a9e6d6577fe306d98bba11162c7faa9bb42e1a8c6d368fd744f2291e5b"
+    }
+  ],
+  "integrity": {
+    "snapshot_hash": "54bf80e2690151531fabb300a7608e3c9059b7b516ed728fdef69ddd22706ac8",
+    "hash_algorithm": "SHA-256"
+  }
+}
