@@ -1,78 +1,75 @@
-# Arquitectura Simbiótica
+# ENDO — Execution History
 
-Most execution systems change after they run.  
-This one doesn’t.
+Observable window into execution history preserved by ENDO.
 
-This repository exposes one operational layer of Arquitectura Simbiótica — focused on structured execution, irreversible recording, closure, and verifiability.
+ENDO is a preservation and continuity system that records execution as *cells*, organizes them into bounded generations and preserves them after closure as observable history.
 
-It contains recorded execution history under the structural conditions of Arquitectura Simbiótica (ENDO / NODE).
+A *node* is a bounded execution domain within ENDO.
 
-ENDO → structural protocol  
-NODE → runtime execution  
+Each node preserves the history of a specific system, process or trajectory.
 
----
+This repository exposes a single public node:
 
-## ACTIVE NODES
-
+```text
 node00-gamc
 
-Origin node currently exposed.
+---
 
-Captures execution as irreversible records across bounded regimes, producing append-only history and generational closure.
+## What does node00-gamc record?
 
-Other nodes are not publicly exposed.
+node00-gamc records the construction, evolution and operation of the ENDO system itself.
+
+The recorded execution corresponds to real interaction between a human operator, AI and the system.
+
+It does not preserve results alone.
+
+It preserves part of the observable history that produced them.
 
 ---
 
-## START
+## Start Here
 
-- [NODE_READING](history/node_reading.md)  
-→ minimal protocol for reading node history  
+### How did the node evolve?
 
-- [latest](history/node00-gamc/latest.json)  
-→ current system state  
+[TRAJECTORY_OVERVIEW](TRAJECTORY_OVERVIEW.md)
 
-- [execution traces](history/node00-gamc/execution_traces/)  
-→ closed generations  
+High-level summary of observable changes across generations.
 
-- [snapshots](history/node00-gamc/snapshots/)  
-→ recorded cells across generations  
+### How can it be verified?
 
-- [trajectory](history/node00-gamc/trajectory/)  
-→ structural evolution  
+[NODE_READING](NODE_READING.md)
+
+Reading protocol for the recorded history.
+---
+
+## Current Observable State
+
+| Metric | Value |
+|----------|----------|
+| Node | node00-gamc |
+| Generations | 9 |
+| Closed environments | 3 |
+| Registered artifact families | CE · CPR · AF |
 
 ---
 
-## WHAT YOU ARE SEEING
+## What This Repository Does Not Show
 
-This is not code.  
-This is recorded execution.
+This repository does not expose:
 
-You are observing:
+- complete runtime
+- internal mechanisms
+- operational code
+- private nodes
+- private environments
+- complete system history
+- artifact contents
+- AI agents
 
-— how a system executes  
-— what it records  
-— how it closes  
-— how it persists
-— reproducible artifacts derived from execution 
+The commits in this repository correspond to the evolution of this public observation layer.
 
----
-
-## OPTIONAL CONTEXT
-
-- [SYSTEM_STRUCTURE](context/SYSTEM_STRUCTURE.md)  
-→ structural definition (not required to read execution)
-
-- [artifacts](derived/artifacts)  
-→ outputs derived from execution
-
-- [environments](environments/)  
-→ bounded execution environments (EFO) where artifacts are produced under constrained conditions
+They do not represent the complete internal construction history of ENDO.
 
 ---
 
-## NOTE
-
-The runtime and protocol are not exposed.
-
-Only recorded execution is visible.
+GAMC
