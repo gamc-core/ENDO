@@ -12,6 +12,7 @@ This repository exposes a single public node:
 
 ```text
 node00-gamc
+```
 
 ---
 
