@@ -32,13 +32,13 @@ It preserves part of the observable history that produced them.
 
 ### How did the node evolve?
 
-[TRAJECTORY_OVERVIEW](/TRAJECTORY_OVERVIEW.md)
+[TRAJECTORY_OVERVIEW](/trajectory_overview.md)
 
 High-level summary of observable changes across generations.
 
 ### How can it be verified?
 
-[NODE_READING](/NODE_READING.md)
+[NODE_READING](/node_reading.md)
 
 Reading protocol for the recorded history.
 ---
